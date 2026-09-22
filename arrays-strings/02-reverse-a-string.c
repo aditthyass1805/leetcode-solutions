@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
+// Test Case 1 (Typical): s = ["h","e","l","l","o"]
+// Expected Output: ["o","l","l","e","h"]
+
+// Test Case 2 (Edge): s = ["a"]
+// Expected Output: ["a"]
+
 void reverseString(char *s, int sSize) {
     for (int left = 0, right = sSize - 1; left < right; left++, right--) {
         char temporary = s[left];
