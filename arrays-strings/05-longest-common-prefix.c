@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
+// Test Case 1 (Typical): strs = ["flower","flow","flight"]
+// Expected Output: "fl"
+
+// Test Case 2 (Edge): strs = ["dog","racecar","car"]
+// Expected Output: ""
+
 void longestCommonPrefix(char **strs, int strsSize, char *result) {
     if (strsSize == 0) {
         result[0] = '\0';
