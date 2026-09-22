@@ -4,7 +4,7 @@
 **SRN:** R25EF012  
 **Course:** B.Tech CSE  
 
-> Personal LeetCode practice log — part of B25GE0101 portfolio
+>> Personal LeetCode practice log — part of B25GE0101 portfolio
 
 ## Table of Contents
 
