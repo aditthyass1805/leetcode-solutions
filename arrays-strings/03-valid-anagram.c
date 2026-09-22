@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
+// Test Case 1 (Typical): s = "anagram", t = "nagaram"
+// Expected Output: true
+
+// Test Case 2 (Edge): s = "a", t = "b"
+// Expected Output: false
+
 int isAnagram(const char *s, const char *t) {
     int counts[256] = {0};
 
