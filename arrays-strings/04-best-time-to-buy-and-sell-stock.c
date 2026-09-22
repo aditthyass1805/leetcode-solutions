@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+// Test Case 1 (Typical): prices = [7,1,5,3,6,4]
+// Expected Output: 5
+
+// Test Case 2 (Edge): prices = [7,6,4,3,1]
+// Expected Output: 0
+
 int maxProfit(const int *prices, int pricesSize) {
     if (pricesSize < 2) {
         return 0;
