@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+// Test Case 1 (Typical): nums = [0,1,0,3,12]
+// Expected Output: [1,3,12,0,0]
+
+// Test Case 2 (Edge): nums = [0]
+// Expected Output: [0]
+
 void moveZeroes(int *nums, int numsSize) {
     int nextNonZero = 0;
 
