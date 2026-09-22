@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+// Test Case 1 (Typical): s = "()[]{}"
+// Expected Output: true
+
+// Test Case 2 (Edge): s = "(]"
+// Expected Output: false
+
 int isValid(const char *s) {
     size_t length = strlen(s);
     char *stack = malloc(length + 1);
