@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+// Test Case 1 (Typical): nums = [2,7,11,15], target = 9
+// Expected Output: [0,1]
+
+// Test Case 2 (Edge): nums = [3,3], target = 6
+// Expected Output: [0,1]
+
 int *twoSum(int *nums, int numsSize, int target, int *returnSize) {
     static int answer[2];
 
